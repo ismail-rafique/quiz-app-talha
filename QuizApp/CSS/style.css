@@ -1,0 +1,123 @@
+body{
+    background-image: url("../images/1.jpg");
+    font-family: serif;
+}
+h1,h2{
+    font-weight: bold;
+    font-size: 2.5em;
+    color: white;
+    text-shadow: 2px 2px 7px white;
+}
+h3,#percentage{
+    margin-top: 150px;
+    font-weight: bold;
+    font-size: 1.7em;
+    color: white;
+}
+p{
+    font-size: 1.2em;
+    color: white;
+    text-align: justify;
+}
+#divhead{
+    margin: 10px 20px 50px 20px;
+}
+#quizhead{
+/*    width: 75%;*/
+/*    float: left;*/
+
+}
+#timer{
+    float: right;
+}
+#divquest{
+    width: 100%;
+    display: block;
+    margin: 100px 50px 25px 25px;
+}
+#message{
+/*    display: none;*/
+    font-size: 1.2em;
+    color: red;
+    text-align: justify;
+    font-style: italic;
+}
+input.inputValue{
+    width: 200px;
+    height: 20px;
+    margin: 20px 10px 10px 10px;
+    padding: 5px;
+    border: 3px solid white;
+    font-size: 1.2em;
+    border-radius: 3px;
+    font-style: italic;
+}
+input.inputValue:focus{
+    width: 200px;
+    height: 20px;
+    margin: 20px 10px 10px 10px;
+    padding: 5px;
+    border: 3px solid #0b3f6e;
+    font-size: 1.2em;
+    border-radius: 3px;
+    font-style: normal;
+}
+button#submit{
+    padding: 10px 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 1.3em;
+    background-color: white;
+    color: #0b3f6e;
+    border: 2px solid #0b3f6e;
+    float: right;
+    border-radius: 3px;
+    font-style: italic;
+    margin-right: 150px;
+    box-shadow: 1px 1px 10px white;
+    
+
+}
+button#submit:hover{
+    padding: 11px 11px;
+    font-size: 1.4em;
+    background-color: #0b3f6e;
+    color: white;
+    border: 2px solid white;
+    box-shadow: 1px 1px 10px white;
+
+}
+#main{
+    width: 30%;
+    float: right;
+}
+#inst{
+    width: 40%;
+    float: left;
+}
+#timer,#quest,.opt{
+     font-size: 1.5em;
+     color: white;
+}
+#next{
+    padding: 10px 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 1.3em;
+    background-color: white;
+    color: #0b3f6e;
+    border: 2px solid #0b3f6e;
+    float: right;
+    border-radius: 3px;
+    font-style: italic;
+    margin-right: 150px;
+    box-shadow: 1px 1px 10px white;
+}
+#next:hover{
+    padding: 11px 11px;
+    font-size: 1.4em;
+    background-color: #0b3f6e;
+    color: white;
+    border: 2px solid white;
+    box-shadow: 1px 1px 10px white
+}
